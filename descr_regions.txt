@@ -1,0 +1,1796 @@
+;
+; regions list
+;
+; Catholic-Tarascans-Maya-Aztec-Chichimecs-Heretics - , hr_mat, hr_chinan, hr_otomi, hr_nahua, hr_mayan, hr_tarascan, hr_chichi
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Tenochtitlan_Province
+	Tenochtitlan
+	aztecs
+	German_Rebels
+	255 255 0
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 100 chichi 0 heretic 0 }
+Tikal_Province
+	Tikal
+	sicily
+	Anatolian_Rebels
+	0 144 54
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Quelepa_Province
+	Quelepa
+	france
+	Bohemian_Rebels
+	23 41 131
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Cubanacan_Province
+	Cubanacan
+	spain
+	Burgundian_Rebels
+	255 0 0
+	no_pirates, hr_nahua, hr_mayan, hr_tarascan, hr_chichi, hr_otomi, hr_chinan, hr_mat, hr_toto, hr_mixtec, hr_zapo
+	5
+	3
+	religions { catholic 90 orthodox 0 islax 0 pagan 0 chichi 0 heretic 10 }
+Guanaja_Province
+	Guanaja
+	normans
+	German_Rebels
+	255 236 121
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Maxcanu_Province
+	Maxcanu
+	sicily
+	Native_Rebels
+	226 0 26
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Ekab_Province
+	Ekab
+	sicily
+	Native_Rebels
+	234 102 69
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Ziancan_Province
+	Ziancan
+	sicily
+	Native_Rebels
+	180 164 0
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Paamul_Province
+	Paamul
+	sicily
+	Native_Rebels
+	0 74 153
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Tulum_Province
+	Tulum
+	sicily
+	Native_Rebels
+	65 166 42
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Xelha_Province
+	Xelha
+	sicily
+	Native_Rebels
+	162 67 17
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Cozumel_Province
+	Cozumel
+	apachean
+	Seljuk_Rebels
+	105 8 90
+	no_pirates, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Chikinchel_Province
+	Chikinchel
+	sicily
+	Native_Rebels
+	255 241 95
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Kuluba_Province
+	Kuluba
+	milan
+	Norse_Rebels
+	24 91 26
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 10 heretic 0 }
+Dzilam_Province
+	Dzilam
+	aztecs
+	Magyar_Rebels
+	241 157 160
+	no_pirates, hr_nahua, hr_otomi
+	5
+	3
+	religions { catholic 0 orthodox 70 islax 10 pagan 0 chichi 20 heretic 0 }
+Yobain_Province
+	Yobain
+	timurids
+	Norse_Rebels
+	132 208 240
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 50 islax 0 pagan 0 chichi 50 heretic 0 }
+Motul_Province
+	Motul
+	sicily
+	Native_Rebels
+	0 185 233
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Tho_Province
+	Tho
+	sicily
+	Native_Rebels
+	89 73 63
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Bakhalal_Province
+	Bakhalal
+	sicily
+	Native_Rebels
+	175 133 84
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Chazil_Province
+	Chazil
+	sicily
+	Native_Rebels
+	171 140 188
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Hunucma_Province
+	Hunucma
+	sicily
+	Native_Rebels
+	212 107 0
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Pocboc_Province
+	Pocboc
+	sicily
+	Native_Rebels
+	212 79 255
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Uxmal_Province
+	Uxmal
+	sicily
+	Native_Rebels
+	255 237 0
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Mayapan_Province
+	Mayapan
+	sicily
+	Native_Rebels
+	144 199 150
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Sotuta_Province
+	Sotuta
+	sicily
+	Native_Rebels
+	147 17 126
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Tibolon_Province
+	Tibolon
+	sicily
+	Native_Rebels
+	0 55 98
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Chichen_Province
+	Chichen
+	sicily
+	Native_Rebels
+	191 0 0
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Zaci_Province
+	Zaci
+	sicily
+	Native_Rebels
+	135 164 0
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Calotmul_Province
+	Calotmul
+	sicily
+	Native_Rebels
+	171 58 139
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Tihosuco_Province
+	Tihosuco
+	aztecs
+	Native_Rebels
+	214 220 92
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Xyatil_Province
+	Xyatil
+	aztecs
+	Native_Rebels
+	0 109 82
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Ichmul_Province
+	Ichmul
+	sicily
+	Native_Rebels
+	203 93 155
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Dzibalchen_Province
+	Dzibalchen
+	aztecs
+	Native_Rebels
+	174 119 22
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Hopelchen_Province
+	Hopelchen
+	sicily
+	Native_Rebels
+	174 194 22
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Kaan_Province
+	Kaan
+	sicily
+	Native_Rebels
+	252 202 113
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Haltunchen_Province
+	Haltunchen
+	sicily
+	Native_Rebels
+	50 79 154
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Chakan_Province
+	Chakan
+	sicily
+	Native_Rebels
+	50 173 154
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Xicalango_Province
+	Xicalango
+	byzantium
+	Arab_Rebels
+	253 107 143
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Tatahutalpan_Province
+	Tatahutalpan
+	sicily
+	Native_Rebels
+	255 221 84
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Calakmul_Province
+	Calakmul
+	sicily
+	Native_Rebels
+	184 2 88
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Ucal_Province
+	Ucal
+	sicily
+	Native_Rebels
+	253 213 143
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Chetumal_Province
+	Chetumal
+	sicily
+	Native_Rebels
+	238 125 0
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Uaxactun_Province
+	Uaxactun
+	sicily
+	Native_Rebels
+	0 209 52
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Kinal_Province
+	Kinal
+	sicily
+	Native_Rebels
+	150 14 126
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Altun_Province
+	Altun
+	sicily
+	Native_Rebels
+	148 142 27
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Belaopan_Province
+	Belaopan
+	sicily
+	Native_Rebels
+	185 214 152
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Pusilha_Province
+	Pusilha
+	sicily
+	Anatolian_Rebels
+	226 0 47
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Ceibal_Province
+	Ceibal
+	sicily
+	Anatolian_Rebels
+	252 236 87
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Yaxchilan_Province
+	Yaxchilan
+	sicily
+	Anatolian_Rebels
+	12 102 172
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Bonampac_Province
+	Bonampac
+	sicily
+	Anatolian_Rebels
+	103 59 21
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Quirigua_Province
+	Quirigua
+	sicily
+	Anatolian_Rebels
+	171 145 125
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Chana_Province
+	Chana
+	sicily
+	Anatolian_Rebels
+	137 109 169
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Nebaj_Province
+	Nebaj
+	sicily
+	Anatolian_Rebels
+	0 110 46
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Iximche_Province
+	Iximche
+	sicily
+	Anatolian_Rebels
+	208 202 0
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Copan_Province
+	Copan
+	sicily
+	Anatolian_Rebels
+	135 205 219
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Xelaju_Province
+	Xelaju
+	sicily
+	Anatolian_Rebels
+	0 150 135
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Comitlan_Province
+	Comitlan
+	sicily
+	Anatolian_Rebels
+	184 36 29
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Gualan_Province
+	Gualan
+	sicily
+	Anatolian_Rebels
+	0 136 117
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Chinkulic_Province
+	Chinkulic
+	sicily
+	Anatolian_Rebels
+	241 54 41
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Tonina_Province
+	Tonina
+	sicily
+	Anatolian_Rebels
+	181 216 178
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Huztlan_Province
+	Huztlan
+	sicily
+	Anatolian_Rebels
+	0 117 221
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Tzinacantepec_Province
+	Tzinacantepec
+	egypt
+	Fatimid_Rebels
+	214 205 0
+	no_pirates, hr_mayan, hr_tsotzil
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Zaculeu_Province
+	Zaculeu
+	sicily
+	Anatolian_Rebels
+	129 59 140
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Qumarkaj_Province
+	Qumarkaj
+	sicily
+	Anatolian_Rebels
+	248 210 224
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Chiyapan_Province
+	Chiyapan
+	egypt
+	English_Rebels
+	46 83 157
+	no_pirates, hr_mayan, hr_chiapas
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Ayotlan_Province
+	Ayotlan
+	sicily
+	Native_Rebels
+	202 179 232
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Mapachtepec_Province
+	Mapachtepec
+	sicily
+	Native_Rebels
+	38 255 69
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Ixhutlan_Province
+	Ixhutlan
+	sicily
+	Native_Rebels
+	0 135 83
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Totoncalco_Province
+	Totoncalco
+	sicily
+	Native_Rebels
+	206 0 94
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 50 pagan 40 chichi 0 heretic 10 }
+Cuzcatlan_Province
+	Cuzcatlan
+	denmark
+	Armenian_Rebels
+	138 232 38
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Izalco_Province
+	Izalco
+	denmark
+	Armenian_Rebels
+	140 85 154
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Nonualco_Province
+	Nonualco
+	denmark
+	Armenian_Rebels
+	229 61 50
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Piraera_Province
+	Piraera
+	france
+	Bohemian_Rebels
+	177 164 204
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Gualcince_Province
+	Gualcince
+	denmark
+	Armenian_Rebels
+	253 243 154
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Comayagua_Province
+	Comayagua
+	france
+	Bohemian_Rebels
+	15 161 46
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 60 pagan 0 chichi 0 heretic 40 } ;religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Yoro_Province
+	Yoro
+	sicily
+	Burgundian_Rebels
+	217 217 161
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 20 pagan 0 chichi 0 heretic 80 } ;religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 20 }
+Jutiapa_Province
+	Jutiapa
+	france
+	Bohemian_Rebels
+	199 89 9
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 60 pagan 0 chichi 0 heretic 40 } ;	religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 20 }
+Tocoa_Province
+	Tocoa
+	apachean
+	Polish_Rebels
+	179 0 0
+	no_pirates, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Catacamas_Province
+	Catacamas
+	apachean
+	Scots_Rebels
+	0 255 255
+	no_pirates, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 80 chichi 0 heretic 20 }
+Ahuas_Province
+	Ahuas
+	sicily
+	Burgundian_Rebels
+	81 166 43
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 0 heretic 100 } ;religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 20 }
+Mayangna_Province
+	Mayangna
+	sicily
+	Burgundian_Rebels
+	196 121 172
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 0 heretic 100 } ;	religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 20 }
+Ulwa_Province
+	Ulwa
+	apachean
+	Seljuk_Rebels
+	0 133 57
+	no_pirates, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 60 chichi 0 heretic 40 }
+Matlacallipan_Province
+	Matlacallipan
+	france
+	Bulgarian_Rebels
+	214 222 93
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 20 pagan 0 chichi 0 heretic 80 } ;religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 20 }
+Nochari_Province
+	Nochari
+	france
+	Bulgarian_Rebels
+	184 27 29
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 50 pagan 0 chichi 0 heretic 50 } ;religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 20 }
+Amapala_Province
+	Amapala
+	france
+	Bohemian_Rebels
+	191 144 124
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 10 }
+Ocotlalpan_Province
+	Ocotlalpan
+	france
+	Bohemian_Rebels
+	173 110 23
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 10 }
+Tawakha_Province
+	Tawakha
+	sicily
+	Burgundian_Rebels
+	176 74 255
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 10 pagan 0 chichi 0 heretic 90 } ;	religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 20 }
+Tehuacan_Province
+	Tehuacan
+	sicily
+	Burgundian_Rebels
+	255 220 36
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 40 pagan 0 chichi 0 heretic 60 } ;religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 20 }
+Nequecheri_Province
+	Nequecheri
+	france
+	Bulgarian_Rebels
+	0 65 136
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 60 pagan 0 chichi 0 heretic 40 } ;religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Hulmul_Province
+	Hulmul
+	sicily
+	Native_Rebels
+	214 148 93
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Aguacatan_Province
+	Aguacatan
+	sicily
+	Anatolian_Rebels
+	189 59 140
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Zotz_Province
+	Zotz
+	sicily
+	Native_Rebels
+	134 197 233
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Tzinacantlan_Province
+	Tzinacantlan
+	sicily
+	Anatolian_Rebels
+	225 220 0
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 60 pagan 30 chichi 0 heretic 10 }
+Cintla_Province
+	Cintla
+	byzantium
+	Arab_Rebels
+	71 173 104
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 80 pagan 10 chichi 0 heretic 10 }
+Canduacan_Province
+	Canduacan
+	byzantium
+	Arab_Rebels
+	250 183 0
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 80 pagan 10 chichi 0 heretic 10 }
+Tacotalpa_Province
+	Tacotalpa
+	byzantium
+	Arab_Rebels
+	146 18 92
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 80 pagan 10 chichi 0 heretic 10 }
+Coatzacualco_Province
+	Coatzacualco
+	byzantium
+	Arab_Rebels
+	0 128 48
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 80 pagan 10 chichi 0 heretic 10 }
+Tecpactepec_Province
+	Tecpactepec
+	egypt
+	English_Rebels
+	114 119 178
+	no_pirates, hr_mayan, hr_chiapas
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 40 pagan 50 chichi 0 heretic 10 }
+Pauca_Province
+	Pauca
+	sicily
+	Burgundian_Rebels
+	177 136 19
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 20 pagan 0 chichi 0 heretic 80 } ;	religions { catholic 0 orthodox 0 islax 80 pagan 0 chichi 0 heretic 10 }
+Nopiloa_Province
+	Nopiloa
+	papal_states
+	Croatian_Rebels
+	161 202 124
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 40 pagan 50 chichi 0 heretic 10 }
+Xaltepec_Province
+	Xaltepec
+	portugal
+	Irish_Rebels
+	161 59 139
+	no_pirates, hr_nahua, hr_zapo
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 20 pagan 70 chichi 0 heretic 10 }
+Xochtlan_Province
+	Xochtlan
+	portugal
+	Irish_Rebels
+	252 207 141
+	no_pirates, hr_nahua, hr_zapo
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 20 pagan 70 chichi 0 heretic 10 }
+Tanachpa_Province
+	Tanachpa
+	hungary
+	French_Rebels
+	177 136 51
+	no_pirates, hr_nahua, hr_toto
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 10 pagan 80 chichi 0 heretic 10 }
+Mitla_Province
+	Mitla
+	portugal
+	Irish_Rebels
+	230 60 93
+	no_pirates, hr_nahua, hr_zapo
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 10 pagan 80 chichi 0 heretic 10 }
+Zaachila_Province
+	Zaachila
+	portugal
+	Irish_Rebels
+	221 225 124
+	no_pirates, hr_nahua, hr_zapo
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 10 pagan 80 chichi 0 heretic 10 }
+Tutupec_Province
+	Tutupec
+	england
+	Iberian_Rebels
+	34 134 46
+	no_pirates, hr_nahua, hr_mixtec
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Chinantlan_Province
+	Chinantlan
+	hungary
+	French_Rebels
+	0 56 188
+	no_pirates, hr_nahua, hr_toto
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 10 pagan 80 chichi 0 heretic 10 }
+Oaxaca_Province
+	Oaxaca
+	england
+	Iberian_Rebels
+	161 202 255
+	no_pirates, hr_nahua, hr_mixtec
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Teotitlan_Province
+	Teotitlan
+	tlaxcalans
+	German_Rebels
+	0 115 144
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Yanuchitlan_Province
+	Yanuchitlan
+	tlaxcalans
+	Flemish_Rebels
+	229 56 133
+	no_pirates, hr_nahua, hr_chinan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Cempoala_Province
+	Cempoala
+	hungary
+	French_Rebels
+	0 158 48
+	no_pirates, hr_nahua, hr_toto
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Tzaplotan_Province
+	Tzaplotan
+	tlaxcalans
+	Flemish_Rebels
+	105 59 140
+	no_pirates, hr_nahua, hr_chinan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Tilantaigo_Province
+	Tilantaigo
+	england
+	Iberian_Rebels
+	212 216 52
+	no_pirates, hr_nahua, hr_mixtec
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Metlatonoc_Province
+	Metlatonoc
+	saxons
+	Island_Rebels
+	171 184 219
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Chixtla_Province
+	Chixtla
+	hungary
+	French_Rebels
+	239 132 0
+	no_pirates, hr_nahua, hr_toto
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Tlacopan_Province
+	Tlacopan
+	aztecs
+	German_Rebels
+	193 108 21
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Texcoco_Province
+	Texcoco
+	aztecs
+	German_Rebels
+	193 255 21
+	no_pirates, hr_nahua, hr_texcoco
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Tlaxcallan_Province
+	Tlaxcallan
+	tlaxcalans
+	German_Rebels
+	145 111 170
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Tizatlan_Province
+	Tizatlan
+	tlaxcalans
+	German_Rebels
+	250 183 5
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Ocotelulco_Province
+	Ocotelulco
+	tlaxcalans
+	German_Rebels
+	69 172 98
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Quetzalcuitlapico_Province
+	Quetzalcuitlapico
+	papal_states
+	Croatian_Rebels
+	235 226 44
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 20 pagan 70 chichi 0 heretic 10 }
+Tecamac_Province
+	Tecamac
+	aztecs
+	German_Rebels
+	57 140 198
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Chalco_Province
+	Chalco
+	normans
+	German_Rebels
+	138 21 26
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Tezontepec_Province
+	Tezontepec
+	scotland
+	Greek_Rebels
+	80 174 98
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Tetzapotitlan_Province
+	Tetzapotitlan
+	aztecs
+	German_Rebels
+	125 84 154
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Tantoc_Province
+	Tantoc
+	scotland
+	Greek_Rebels
+	183 6 74
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Papantla_Province
+	Papantla
+	scotland
+	Greek_Rebels
+	252 201 82
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 75 chichi 10 heretic 5 }
+Coaetepec_Province
+	Coaetepec
+	scotland
+	Greek_Rebels
+	227 180 209
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 75 chichi 10 heretic 5 }
+Atlan_Province
+	Atlan
+	aztecs
+	Magyar_Rebels
+	105 152 204
+	no_pirates, hr_nahua, hr_otomi
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 75 chichi 10 heretic 5 }
+Xochimilco_Province
+	Xochimilco
+	normans
+	German_Rebels
+	226 0 57
+	no_pirates, hr_nahua, hr_xochimilco
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 75 chichi 10 heretic 5 }
+Tenayuca_Province
+	Tenayuca
+	aztecs
+	German_Rebels
+	0 150 52
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Tula_Province
+	Tula
+	aztecs
+	Magyar_Rebels
+	156 59 139
+	no_pirates, hr_nahua, hr_otomi
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Tequixquiac_Province
+	Tequixquiac
+	aztecs
+	Magyar_Rebels
+	205 0 108
+	no_pirates, hr_nahua, hr_otomi
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 75 chichi 10 heretic 5 }
+Cholula_Province
+	Cholula
+	tlaxcalans
+	German_Rebels
+	255 234 0
+	no_pirates, hr_nahua, hr_cholula
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 85 chichi 10 heretic 5 }
+Piaztlan_Province
+	Piaztlan
+	saxons
+	Island_Rebels
+	53 75 151
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 85 chichi 10 heretic 5 }
+Malinalco_Province
+	Malinalco
+	normans
+	German_Rebels
+	177 136 89
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Tepecuacuilco_Province
+	Tepecuacuilco
+	saxons
+	Island_Rebels
+	156 200 124
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Yopizingo_Province
+	Yopizingo
+	saxons
+	Island_Rebels
+	255 189 0
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Tlachco_Province
+	Tlachco
+	normans
+	German_Rebels
+	41 102 172
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Calixtlahuaca_Province
+	Calixtlahuaca
+	aztecs
+	German_Rebels
+	241 158 183
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Taxco_Province
+	Taxco
+	saxons
+	Island_Rebels
+	140 17 67
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Otlatlan_Province
+	Otlatlan
+	saxons
+	Island_Rebels
+	0 160 128
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Quiahuixtlan_Province
+	Quiahuixtlan
+	hungary
+	French_Rebels
+	206 0 85
+	no_pirates, hr_nahua, hr_toto
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Huaxyac_Province
+	Huaxyac
+	england
+	Iberian_Rebels
+	195 119 19
+	no_pirates, hr_nahua, hr_mixtec
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Tenancingo_Province
+	Tenancingo
+	aztecs
+	Italian_Rebels
+	137 204 205
+	no_pirates, hr_nahua, hr_mat
+	5
+	3
+	religions { catholic 0 orthodox 5 islax 0 pagan 85 chichi 0 heretic 10 }
+Oztoma_Province
+	Oztoma
+	aztecs
+	Italian_Rebels
+	8 144 54
+	no_pirates, hr_nahua, hr_mat
+	5
+	3
+	religions { catholic 0 orthodox 25 islax 0 pagan 65 chichi 0 heretic 10 }
+Telolopan_Province
+	Telolopan
+	saxons
+	Island_Rebels
+	191 92 155
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 25 islax 0 pagan 65 chichi 0 heretic 10 }
+Coyucan_Province
+	Coyucan
+	tarascans
+	Livonian_Rebels
+	146 153 27
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 30 islax 0 pagan 60 chichi 0 heretic 10 }
+Zacango_Province
+	Zacango
+	tarascans
+	Livonian_Rebels
+	125 117 154
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 50 islax 0 pagan 30 chichi 10 heretic 10 }
+Alahuitzlan_Province
+	Alahuitzlan
+	aztecs
+	Italian_Rebels
+	125 255 154
+	no_pirates, hr_nahua, hr_mat
+	5
+	3
+	religions { catholic 0 orthodox 50 islax 0 pagan 30 chichi 10 heretic 10 }
+Tzinancantepec_Province
+	Tzinancantepec
+	aztecs
+	Italian_Rebels
+	241 143 45
+	no_pirates, hr_nahua, hr_mat
+	5
+	3
+	religions { catholic 0 orthodox 50 islax 0 pagan 30 chichi 10 heretic 10 }
+Toluca_Province
+	Toluca
+	aztecs
+	Italian_Rebels
+	102 177 70
+	no_pirates, hr_nahua, hr_mat
+	5
+	3
+	religions { catholic 0 orthodox 50 islax 0 pagan 30 chichi 10 heretic 10 }
+Xiquipilco_Province
+	Xiquipilco
+	aztecs
+	German_Rebels
+	255 221 0
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 30 islax 0 pagan 50 chichi 10 heretic 10 }
+Zimapan_Province
+	Zimapan
+	aztecs
+	Magyar_Rebels
+	91 192 207
+	no_pirates, hr_nahua, pames, hr_otomi
+	5
+	3
+	religions { catholic 0 orthodox 30 islax 0 pagan 50 chichi 10 heretic 10 }
+Xilotepec_Province
+	Xilotepec
+	tarascans
+	Livonian_Rebels
+	197 219 152
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 50 islax 0 pagan 30 chichi 10 heretic 10 }
+Tampatel_Province
+	Tampatel
+	aztecs
+	Magyar_Rebels
+	137 166 169
+	no_pirates, hr_nahua, hr_otomi, hr_otomi2
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 70 chichi 10 heretic 10 }
+Patzcuaro_Province
+	Patzcuaro
+	tarascans
+	Livonian_Rebels
+	0 158 102
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 75 islax 0 pagan 10 chichi 10 heretic 5 }
+Apatzingan_Province
+	Apatzingan
+	tarascans
+	Livonian_Rebels
+	255 248 183
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 85 islax 0 pagan 0 chichi 10 heretic 5 }
+Tuzantla_Province
+	Tuzantla
+	tarascans
+	Livonian_Rebels
+	12 202 172
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 85 islax 0 pagan 0 chichi 10 heretic 5 }
+Patazio_Province
+	Patazio
+	tarascans
+	Livonian_Rebels
+	227 177 0
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 85 islax 0 pagan 0 chichi 10 heretic 5 }
+Chiuatlan_Province
+	Chiuatlan
+	tarascans
+	Livonian_Rebels
+	227 0 110
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 85 islax 0 pagan 0 chichi 10 heretic 5 }
+Zacatula_Province
+	Zacatula
+	timurids
+	Mexican_Rebels
+	200 210 233
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 85 islax 0 pagan 0 chichi 10 heretic 5 }
+Zacapu_Province
+	Zacapu
+	tarascans
+	Livonian_Rebels
+	255 224 147
+	no_pirates, guamares, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 85 islax 0 pagan 0 chichi 10 heretic 5 }
+Caxtitlan_Province
+	Caxtitlan
+	timurids
+	Mexican_Rebels
+	156 255 124
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 35 islax 0 pagan 50 chichi 10 heretic 5 }
+Chuatlan_Province
+	Chuatlan
+	timurids
+	Mexican_Rebels
+	183 16 74
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 25 islax 0 pagan 60 chichi 10 heretic 5 }
+Coquinatlan_Province
+	Coquinatlan
+	timurids
+	Mexican_Rebels
+	0 128 189
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 35 islax 0 pagan 50 chichi 10 heretic 5 }
+Zapotilic_Province
+	Zapotilic
+	tarascans
+	Livonian_Rebels
+	129 69 140
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 45 islax 0 pagan 40 chichi 10 heretic 5 }
+Huehuetoca_Province
+	Huehuetoca
+	aztecs
+	Magyar_Rebels
+	199 144 9
+	no_pirates, hr_nahua, pames, hr_otomi, hr_otomi2
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 70 chichi 15 heretic 5 }
+Tzintzuntan_Province
+	Tzintzuntan
+	tarascans
+	Livonian_Rebels
+	238 158 193
+	no_pirates, hr_tarascan
+	5
+	3
+	religions { catholic 0 orthodox 70 islax 0 pagan 10 chichi 15 heretic 5 }
+Tepic_Province
+	Tepic
+	milan
+	Norse_Rebels
+	169 208 151
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 20 islax 0 pagan 60 chichi 15 heretic 5 }
+Zapopan_Province
+	Zapopan
+	milan
+	Norse_Rebels
+	255 239 204
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 20 islax 0 pagan 60 chichi 15 heretic 5 }
+Tabasco_Province
+	Tabasco
+	apachean
+	Seljuk_Rebels
+	220 126 173
+	no_pirates, tecuexes, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 20 islax 0 pagan 40 chichi 35 heretic 5 }
+Ameca_Province
+	Ameca
+	apachean
+	Seljuk_Rebels
+	0 161 74
+	no_pirates, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 60 chichi 25 heretic 5 }
+Molanco_Province
+	Molanco
+	scotland
+	Greek_Rebels
+	133 192 124
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 70 chichi 15 heretic 5 }
+Tampico_Province
+	Tampico
+	scotland
+	Greek_Rebels
+	238 226 0
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 70 chichi 10 heretic 10 }
+Zacatecas_Province
+	Zacatecas
+	chichimeca
+	Steppe_Rebels
+	148 200 150
+	no_pirates, guachichiles, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 10 chichi 80 heretic 10 }
+Colotlan_Province
+	Colotlan
+	chichimeca
+	Steppe_Rebels
+	90 192 213
+	no_pirates, zacatecos, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 10 chichi 80 heretic 10 }
+Tlatengo_Province
+	Tlatengo
+	chichimeca
+	Saharan_Rebels
+	250 191 110
+	no_pirates, zacatecos
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Xochipillan_Province
+	Xochipillan
+	chichimeca
+	Steppe_Rebels
+	58 67 146
+	no_pirates, caxcanes, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Tecuala_Province
+	Tecuala
+	chichimeca
+	Saharan_Rebels
+	226 96 155
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Nayarit_Province
+	Nayarit
+	chichimeca
+	Saharan_Rebels
+	156 143 24
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Panuco_Province
+	Panuco
+	chichimeca
+	Spanish_Rebels
+	221 56 138
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Tanazunchale_Province
+	Tanazunchale
+	aztecs
+	Magyar_Rebels
+	57 153 45
+	no_pirates, guachichiles, hr_nahua, hr_otomi
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Tempoal_Province
+	Tempoal
+	aztecs
+	Magyar_Rebels
+	109 82 153
+	no_pirates, hr_nahua, hr_otomi
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 80 chichi 10 heretic 0 }
+Matehuala_Province
+	Matehuala
+	chichimeca
+	Spanish_Rebels
+	0 169 228
+	no_pirates, guachichiles
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 40 chichi 50 heretic 0 }
+Tequisquiapan_Province
+	Tequisquiapan
+	chichimeca
+	Steppe_Rebels
+	255 243 205
+	no_pirates, guamares, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Ocampo_Province
+	Ocampo
+	apachean
+	Scots_Rebels
+	131 188 97
+	no_pirates, tecuexes
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Nacha_Province
+	Nacha
+	chichimeca
+	Spanish_Rebels
+	229 225 239
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Mazapil_Province
+	Mazapil
+	chichimeca
+	Spanish_Rebels
+	224 224 91
+	no_pirates, guachichiles
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Guaxaban_Province
+	Guaxaban
+	chichimeca
+	Steppe_Rebels
+	184 13 45
+	no_pirates, guachichiles, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Tepechitlan_Province
+	Tepechitlan
+	chichimeca
+	Steppe_Rebels
+	254 246 183
+	no_pirates, caxcanes, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Mezquital_Province
+	Mezquital
+	chichimeca
+	Steppe_Rebels
+	198 135 13
+	no_pirates, zacatecos, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 0 chichi 90 heretic 10 }
+Azcapotzalco_Province
+	Azcapotzalco
+	aztecs
+	German_Rebels
+	0 126 128
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Teotihuacan_Province
+	Teotihuacan
+	aztecs
+	German_Rebels
+	193 148 21
+	no_pirates, hr_nahua
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Coixtlahuaca_Province
+	Coixtlahuaca
+	tlaxcalans
+	Flemish_Rebels
+	85 192 234
+	no_pirates, hr_nahua, hr_chinan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 0 pagan 90 chichi 0 heretic 10 }
+Nakum_Province
+	Nakum
+	sicily
+	Native_Rebels
+	171 167 207
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 90 pagan 0 chichi 0 heretic 10 }
+Xoconochco_Province
+	Xoconochco
+	sicily
+	Native_Rebels
+	183 0 124
+	no_pirates, hr_mayan
+	5
+	3
+	religions { catholic 0 orthodox 0 islax 40 pagan 50 chichi 0 heretic 10 }
+Soroa_Province
+	Soroa
+	apachean
+	Polish_Rebels
+	114 186 124
+	no_pirates, hr_chichi
+	5
+	3
+	religions { catholic 0 orthodox 20 islax 0 pagan 10 chichi 70 heretic 0 }	
+Tomatlan_Province
+	Tomatlan
+	timurids
+	Norse_Rebels
+	221 232 0
+	no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 10 islax 0 pagan 70 chichi 20 heretic 0 }
