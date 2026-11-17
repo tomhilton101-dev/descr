@@ -1,0 +1,675 @@
+script
+
+	;show the whole map
+	restrict_strat_radar false
+
+		; Spain is active from campaign start in this playable-Spain variant. 
+		
+
+
+	;------------------- AI KINGS PURSE BONUS -------------------;
+
+monitor_event FactionTurnStart FactionIsLocal
+
+	if I_IsFactionAIControlled aztecs
+		increment_kings_purse aztecs 10000
+	end_if
+
+	if I_IsFactionAIControlled england
+		increment_kings_purse england 3000
+	end_if
+
+	if I_IsFactionAIControlled mayans
+		increment_kings_purse mayans 3000
+	end_if
+
+	if I_IsFactionAIControlled normans
+		increment_kings_purse normans 3000
+	end_if
+
+	if I_IsFactionAIControlled tlaxcalans
+		increment_kings_purse tlaxcalans 3000
+	end_if
+
+	if I_IsFactionAIControlled tarascans
+		increment_kings_purse tarascans 3000
+	end_if
+
+	if I_IsFactionAIControlled chichimeca
+		increment_kings_purse chichimeca 3000
+	end_if
+
+	if I_IsFactionAIControlled france
+		increment_kings_purse france 3000
+	end_if
+
+	if I_IsFactionAIControlled portugal
+		increment_kings_purse portugal 3000
+	end_if
+
+	if I_IsFactionAIControlled milan
+		increment_kings_purse milan 3000
+	end_if
+
+	if I_IsFactionAIControlled hre
+		increment_kings_purse hre 3000
+	end_if
+
+	if I_IsFactionAIControlled venice
+		increment_kings_purse venice 3000
+	end_if
+
+	if I_IsFactionAIControlled sicily
+		increment_kings_purse sicily 3000
+	end_if
+
+	if I_IsFactionAIControlled scotland
+		increment_kings_purse scotland 3000
+	end_if
+
+	if I_IsFactionAIControlled byzantium
+		increment_kings_purse byzantium 3000
+	end_if
+
+	if I_IsFactionAIControlled hungary
+		increment_kings_purse hungary 3000
+	end_if
+
+	if I_IsFactionAIControlled russia
+		increment_kings_purse russia 3000
+	end_if
+
+	if I_IsFactionAIControlled moors
+		increment_kings_purse moors 3000
+	end_if
+
+	if I_IsFactionAIControlled timurids
+		increment_kings_purse timurids 3000
+	end_if
+
+	if I_IsFactionAIControlled poland
+		increment_kings_purse poland 3000
+	end_if
+
+	if I_IsFactionAIControlled papal_states
+		increment_kings_purse papal_states 3000
+	end_if
+
+	if I_IsFactionAIControlled saxons
+		increment_kings_purse saxons 3000
+	end_if
+	
+	if I_IsFactionAIControlled turks
+		increment_kings_purse turks 3000
+	end_if
+
+	if I_IsFactionAIControlled egypt
+		increment_kings_purse egypt 3000
+	end_if
+
+	if I_IsFactionAIControlled denmark
+		increment_kings_purse denmark 3000
+	end_if
+
+	if I_IsFactionAIControlled mongols
+		increment_kings_purse mongols 3000
+	end_if
+
+	if I_IsFactionAIControlled apachean
+		increment_kings_purse apachean 3000
+	end_if
+
+	if I_IsFactionAIControlled spain
+		increment_kings_purse spain 3000
+	end_if
+
+	terminate_monitor
+end_monitor		
+
+ 	;;;;;;;;;---- Spain dont tolerate pagan temples and heretic constructions
+	
+	monitor_event FactionTurnStart TrueCondition ;FactionType spain
+
+		 destroy_buildings spain temple_pagan true
+		 destroy_buildings spain temple_maya true
+		 destroy_buildings spain temple_tarascos true
+		 destroy_buildings spain temple_chichi true
+		 destroy_buildings spain temazcal true
+		 destroy_buildings spain temazcal_t true
+		 destroy_buildings spain temazcal_m true
+		 destroy_buildings spain temazcal_chichi true
+		 destroy_buildings spain ball_court true
+		 destroy_buildings spain ball_court_m true
+		 destroy_buildings spain ball_court_t true
+		 destroy_buildings spain ball_court_chichi true
+		 destroy_buildings spain dance_circle true	
+		 destroy_buildings spain cues true	
+		 destroy_buildings spain observatory true	
+		 destroy_buildings spain estela_maya true	
+		 destroy_buildings spain meso_palace true
+		 destroy_buildings spain meso_garrisons true
+		 destroy_buildings spain warrior_house true		 
+		 destroy_buildings spain tribal_mercs true
+		 destroy_buildings spain god_war true
+		 destroy_buildings spain god_sun true
+		 destroy_buildings spain god_moon true
+		 destroy_buildings spain god_rain true
+		 destroy_buildings spain god_corn true
+		 destroy_buildings spain god_wisdom true
+		 destroy_buildings spain god_fertility true
+		 destroy_buildings spain god_death true
+		 destroy_buildings spain god_arts true
+		 destroy_buildings spain god_trade true
+		 destroy_buildings spain aguilas_house true
+		 destroy_buildings spain jaguar_house true
+		 destroy_buildings spain otomi_house true
+		 destroy_buildings spain cuachic_house true
+
+		terminate_monitor
+	end_monitor
+	
+	monitor_event GeneralCaptureSettlement TrueCondition ;FactionType spain
+		
+		 destroy_buildings spain temple_pagan true
+		 destroy_buildings spain temple_maya true
+		 destroy_buildings spain temple_tarascos true
+		 destroy_buildings spain temple_chichi true
+		 destroy_buildings spain temazcal true
+		 destroy_buildings spain temazcal_t true
+		 destroy_buildings spain temazcal_m true
+		 destroy_buildings spain temazcal_chichi true
+		 destroy_buildings spain ball_court true
+		 destroy_buildings spain ball_court_m true
+		 destroy_buildings spain ball_court_t true
+		 destroy_buildings spain ball_court_chichi true
+		 destroy_buildings spain dance_circle true	
+		 destroy_buildings spain cues true	
+		 destroy_buildings spain observatory true	
+		 destroy_buildings spain estela_maya true	
+		 destroy_buildings spain meso_palace true
+		 destroy_buildings spain meso_garrisons true
+		 destroy_buildings spain warrior_house true		 
+		 destroy_buildings spain tribal_mercs true
+		 destroy_buildings spain god_war true
+		 destroy_buildings spain god_sun true
+		 destroy_buildings spain god_moon true
+		 destroy_buildings spain god_rain true
+		 destroy_buildings spain god_corn true
+		 destroy_buildings spain god_wisdom true
+		 destroy_buildings spain god_fertility true
+		 destroy_buildings spain god_death true
+		 destroy_buildings spain god_arts true
+		 destroy_buildings spain god_trade true
+		 destroy_buildings spain aguilas_house true
+		 destroy_buildings spain jaguar_house true
+		 destroy_buildings spain otomi_house true
+		 destroy_buildings spain cuachic_house true
+	
+	end_monitor
+	
+	monitor_event GiveSettlement TrueCondition ;TargetFactionType spain
+	
+		 destroy_buildings spain temple_pagan true
+		 destroy_buildings spain temple_maya true
+		 destroy_buildings spain temple_tarascos true
+		 destroy_buildings spain temple_chichi true
+		 destroy_buildings spain temazcal true
+		 destroy_buildings spain temazcal_t true
+		 destroy_buildings spain temazcal_m true
+		 destroy_buildings spain temazcal_chichi true
+		 destroy_buildings spain ball_court true
+		 destroy_buildings spain ball_court_m true
+		 destroy_buildings spain ball_court_t true
+		 destroy_buildings spain ball_court_chichi true
+		 destroy_buildings spain dance_circle true	
+		 destroy_buildings spain cues true	
+		 destroy_buildings spain observatory true	
+		 destroy_buildings spain estela_maya true	
+		 destroy_buildings spain meso_palace true
+		 destroy_buildings spain meso_garrisons true
+		 destroy_buildings spain warrior_house true		 
+		 destroy_buildings spain tribal_mercs true
+		 destroy_buildings spain god_war true
+		 destroy_buildings spain god_sun true
+		 destroy_buildings spain god_moon true
+		 destroy_buildings spain god_rain true
+		 destroy_buildings spain god_corn true
+		 destroy_buildings spain god_wisdom true
+		 destroy_buildings spain god_fertility true
+		 destroy_buildings spain god_death true
+		 destroy_buildings spain god_arts true
+		 destroy_buildings spain god_trade true
+		 destroy_buildings spain aguilas_house true
+		 destroy_buildings spain jaguar_house true
+		 destroy_buildings spain otomi_house true
+		 destroy_buildings spain cuachic_house true
+	
+	end_monitor
+	
+	monitor_event CityRebels TrueCondition ;TargetFactionType spain
+	
+		 destroy_buildings spain temple_pagan true
+		 destroy_buildings spain temple_maya true
+		 destroy_buildings spain temple_tarascos true
+		 destroy_buildings spain temple_chichi true
+		 destroy_buildings spain temazcal true
+		 destroy_buildings spain temazcal_t true
+		 destroy_buildings spain temazcal_m true
+		 destroy_buildings spain temazcal_chichi true
+		 destroy_buildings spain ball_court true
+		 destroy_buildings spain ball_court_m true
+		 destroy_buildings spain ball_court_t true
+		 destroy_buildings spain ball_court_chichi true
+		 destroy_buildings spain dance_circle true	
+		 destroy_buildings spain cues true	
+		 destroy_buildings spain observatory true	
+		 destroy_buildings spain estela_maya true	
+		 destroy_buildings spain meso_palace true
+		 destroy_buildings spain meso_garrisons true
+		 destroy_buildings spain warrior_house true		 
+		 destroy_buildings spain tribal_mercs true
+		 destroy_buildings spain god_war true
+		 destroy_buildings spain god_sun true
+		 destroy_buildings spain god_moon true
+		 destroy_buildings spain god_rain true
+		 destroy_buildings spain god_corn true
+		 destroy_buildings spain god_wisdom true
+		 destroy_buildings spain god_fertility true
+		 destroy_buildings spain god_death true
+		 destroy_buildings spain god_arts true
+		 destroy_buildings spain god_trade true
+		 destroy_buildings spain aguilas_house true
+		 destroy_buildings spain jaguar_house true
+		 destroy_buildings spain otomi_house true
+		 destroy_buildings spain cuachic_house true
+		
+	end_monitor
+	
+	monitor_event GovernorCityRebels TrueCondition ;TargetFactionType spain
+	
+		 destroy_buildings spain temple_pagan true
+		 destroy_buildings spain temple_maya true
+		 destroy_buildings spain temple_tarascos true
+		 destroy_buildings spain temple_chichi true
+		 destroy_buildings spain temazcal true
+		 destroy_buildings spain temazcal_t true
+		 destroy_buildings spain temazcal_m true
+		 destroy_buildings spain temazcal_chichi true
+		 destroy_buildings spain ball_court true
+		 destroy_buildings spain ball_court_m true
+		 destroy_buildings spain ball_court_t true
+		 destroy_buildings spain ball_court_chichi true
+		 destroy_buildings spain dance_circle true	
+		 destroy_buildings spain cues true	
+		 destroy_buildings spain observatory true	
+		 destroy_buildings spain estela_maya true	
+		 destroy_buildings spain meso_palace true
+		 destroy_buildings spain meso_garrisons true
+		 destroy_buildings spain warrior_house true		 
+		 destroy_buildings spain tribal_mercs true
+		 destroy_buildings spain god_war true
+		 destroy_buildings spain god_sun true
+		 destroy_buildings spain god_moon true
+		 destroy_buildings spain god_rain true
+		 destroy_buildings spain god_corn true
+		 destroy_buildings spain god_wisdom true
+		 destroy_buildings spain god_fertility true
+		 destroy_buildings spain god_death true
+		 destroy_buildings spain god_arts true
+		 destroy_buildings spain god_trade true
+		 destroy_buildings spain aguilas_house true
+		 destroy_buildings spain jaguar_house true
+		 destroy_buildings spain otomi_house true
+		 destroy_buildings spain cuachic_house true
+		
+	end_monitor
+
+
+
+
+
+;------------------- FACTION LEADER MODELS -------------------;	(need to modifiy this part, is in WIP)
+
+	;monitor_event BecomesFactionLeader FactionType spain
+	;	change_battle_model spain leader Spanish_Viceroy
+	;end_monitor
+	
+	monitor_event BecomesFactionLeader FactionType aztecs
+		change_battle_model aztecs leader Mesoamerican_King
+	end_monitor
+	
+	monitor_event BecomesFactionLeader FactionType mayans
+		change_battle_model mayans leader Mesoamerican_King
+	end_monitor
+	
+	monitor_event BecomesFactionLeader FactionType tlaxcalans
+		change_battle_model tlaxcalans leader Mesoamerican_King
+	end_monitor
+	
+	monitor_event BecomesFactionLeader FactionType tarascans
+		change_battle_model tarascans leader Mesoamerican_King
+	end_monitor
+	
+	monitor_event BecomesFactionLeader FactionType chichimeca
+		change_battle_model chichimeca leader Indian_General
+	end_monitor
+
+
+
+;;;;;;;;;---- SPAIN: TURN 0 EXPEDITION START ----;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber = 0
+
+		add_money spain 12000
+
+		snap_strat_camera 482, 219
+
+		historic_event HERNAN_CORTES_ARMY
+
+		terminate_monitor
+	end_monitor
+
+;----------------- MONEY FOR SPAIN SACKING BATTLEFIELD
+
+	monitor_event PostBattle FactionType spain
+
+	and WonBattle
+	and WasAttacker
+	and BattleSuccess = crushing
+	;and RandomPercent <= 80
+		console_command add_money spain, 1000
+
+	end_monitor
+
+	monitor_event PostBattle FactionType spain
+
+	and WonBattle
+	and WasAttacker
+	and BattleSuccess < crushing
+	and BattleSuccess >= close	
+	;and RandomPercent <= 80
+		console_command add_money spain, 800
+
+	end_monitor
+
+	monitor_event PostBattle FactionType spain
+
+	and WonBattle
+	and not WasAttacker
+	and BattleSuccess = crushing	
+	;and RandomPercent <= 70
+		console_command add_money spain, 600
+
+	end_monitor
+	
+	monitor_event PostBattle FactionType spain
+
+	and WonBattle
+	and not WasAttacker
+	and BattleSuccess < crushing
+	and BattleSuccess >= close	
+	;and RandomPercent <= 70
+		console_command add_money spain, 400
+
+	end_monitor
+
+
+	;;;;;;;;;---- 1523 DOMINICAN ORDER 1/2 ----;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber = 12
+
+		spawn_character spain Pedro de_Malgarejo, priest, age 30, x 482, y 219
+		console_command give_trait "Pedro de_Malgarejo" NaturalPriestSkill 3
+		console_command give_trait "Pedro de_Malgarejo" StrongFaith 2
+
+		spawn_character spain Juan_ii de_Varillas, priest, age 32, x 482, y 219
+		console_command give_trait "Juan_ii de_Varillas" NaturalPriestSkill 3
+
+		spawn_character spain Diego Altamirano, priest, age 31, x 482, y 219
+		console_command give_trait "Diego Altamirano" NaturalPriestSkill 3
+		console_command give_trait "Diego Altamirano" StrongFaith 1
+
+		spawn_character spain Martin de_Valencia, priest, age 46, x 482, y 219
+		console_command give_trait "Martin de_Valencia" NaturalPriestSkill 2
+
+		terminate_monitor
+	end_monitor
+
+
+	;;;;;;;;;---- 1525 DOMINICAN ORDER 2/2 ----;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber = 15
+
+		spawn_character spain Toribio de_Benavente, priest, age 30, x 482, y 219
+		console_command give_trait "Toribio de_Benavente" NaturalPriestSkill 3
+		console_command give_trait "Toribio de_Benavente" StrongFaith 2
+
+		spawn_character spain Jean de_Tecto, priest, age 30, x 482, y 219
+		console_command give_trait "Jean de_Tecto" NaturalPriestSkill 3
+		console_command give_trait "Jean de_Tecto" StrongFaith 2
+
+		terminate_monitor
+	end_monitor
+
+
+	;;;;; SETTLEMENT RENAMING
+
+	monitor_event GeneralCaptureSettlement SettlementName Quiahuixtlan
+		and CultureType southern_european
+		change_settlement_name Quiahuixtlan Veracruz
+	end_monitor
+
+	monitor_event GeneralCaptureSettlement SettlementName Tenochtitlan
+		and CultureType southern_european
+		change_settlement_name Tenochtitlan Mexico
+	end_monitor
+
+	monitor_event GeneralCaptureSettlement SettlementName Tho
+		and CultureType southern_european
+		change_settlement_name Tho Merida
+	end_monitor
+
+
+	;;;;;;;;;---- 1527 YUCATAN EXPEDITIONS ----;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber = 20
+
+		historic_event YUCATAN_CONQUISTA
+
+		spawn_army
+			faction spain
+			character Francisco Hernandez_de_Cordoba, named character, age 33, x 482, y 219, family, label yucatan01, direction W
+			traits LoyaltyStarter 1 , GoodCommander 4 , ReligionStarter 1 , Conquistador 4 , Brave 2 , PublicFaith 1 , Loyal 1 , BattleDread 1 , StrategyDread 1
+				unit Spanish_Bodyguard exp 3 armour 0 weapon_lvl 0
+				unit Conquistadores exp 2 armour 0 weapon_lvl 0
+				unit Dismounted Conquistadores exp 1 armour 0 weapon_lvl 0
+				unit Sword and Buckler Men exp 1 armour 0 weapon_lvl 0
+				unit Native Militia exp 1 armour 0 weapon_lvl 0
+				unit Yucatec Holkans Archers exp 1 armour 0 weapon_lvl 0
+				unit Crossbowmen exp 1 armour 0 weapon_lvl 0
+		end
+
+		terminate_monitor
+	end_monitor
+
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber = 20
+
+		spawn_army
+			faction spain
+			character Francisco_ii el_Adelantado, named character, age 20, x 482, y 219, family, label yucatan03, direction W
+			traits LoyaltyStarter 1 , GoodCommander 4 , ReligionStarter 1 , Conquistador 4 , Brave 1 , PublicFaith 2 , Loyal 3 , BattleDread 1 , StrategyDread 1
+				unit Spanish_Bodyguard exp 3 armour 0 weapon_lvl 0
+				unit Conquistadores exp 2 armour 0 weapon_lvl 0
+				unit Sword and Buckler Men exp 1 armour 0 weapon_lvl 0
+				unit Spanish Infantryman exp 1 armour 0 weapon_lvl 0
+				unit Yucatec Holkans Archers exp 1 armour 0 weapon_lvl 0
+				unit Native Militia exp 1 armour 0 weapon_lvl 0
+				unit Crossbowmen exp 1 armour 0 weapon_lvl 0
+		end
+
+		terminate_monitor
+	end_monitor
+
+
+	;;;;;;;;;---- 1527 YUCATAN REINFORCEMENTS ----;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber = 24
+
+		; Alonso de Avila already arrived on Turn 4.
+		; Avoid duplicate character creation.
+
+		spawn_character spain Lorenzo de_Alaminos, priest, age 32, x 482, y 219
+		console_command give_trait "Lorenzo de_Alaminos" NaturalPriestSkill 3
+		console_command give_trait "Lorenzo de_Alaminos" StrongFaith 2
+
+		spawn_character spain Sebastian Garrido, priest, age 33, x 482, y 219
+		console_command give_trait "Sebastian Garrido" NaturalPriestSkill 3
+		console_command give_trait "Sebastian Garrido" StrongFaith 1
+
+		spawn_character spain Hernando de_la_Vega, priest, age 32, x 482, y 219
+		console_command give_trait "Hernando de_la_Vega" NaturalPriestSkill 3
+
+		terminate_monitor
+	end_monitor
+
+
+	;;;;;;;;;---- 1535 YUCATAN REINFORCEMENTS ----;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber = 36
+
+		spawn_army
+			faction spain
+			character random_name, named character, age 30, x 482, y 219, family, label yucatan07, direction W
+			traits LoyaltyStarter 1 , GoodCommander 4 , ReligionStarter 1 , Conquistador 3 , Brave 2 , PublicFaith 3 , Loyal 2 , BattleDread 3 , StrategyDread 3
+				unit Spanish_Bodyguard exp 3 armour 0 weapon_lvl 0
+				unit Conquistadores exp 2 armour 0 weapon_lvl 0
+				unit Sword and Buckler Men exp 1 armour 0 weapon_lvl 0
+				unit Spanish Infantryman exp 1 armour 0 weapon_lvl 0
+				unit Native Militia exp 1 armour 0 weapon_lvl 0
+				unit Musketeers exp 1 armour 0 weapon_lvl 0
+				unit Crossbowmen exp 1 armour 0 weapon_lvl 0
+		end
+
+		terminate_monitor
+	end_monitor
+
+
+	;============================================================
+	; OPTIONAL NATIVE UPRISINGS
+	;============================================================
+	; The historical triggers remain.
+	; Automatic free armies and forced diplomatic wars are disabled.
+	; Change this section if you later want the original uprisings.
+	;============================================================
+
+	declare_counter mixton_war2
+
+	monitor_event GeneralCaptureSettlement SettlementName Ocampo
+		and FactionType spain
+		and I_SettlementOwner Ocampo = apachean
+		and I_NumberOfSettlements apachean > 0
+		and I_NumberOfSettlements milan > 0
+
+		set_counter mixton_war2 1
+		historic_event MIXTON_WAR
+
+		terminate_monitor
+	end_monitor
+
+
+	monitor_event FactionTurnStart FactionType apachean
+		and I_CompareCounter mixton_war2 = 1
+
+		; Mixton uprising army spawns disabled.
+		; No forced alliance or war with Spain.
+		; No false reinforcement notification.
+
+		terminate_monitor
+	end_monitor
+
+
+	declare_counter chichi_war
+
+	monitor_event GeneralCaptureSettlement SettlementName Guaxaban
+		and FactionType spain
+		and I_SettlementOwner Guaxaban = chichimeca
+		and I_NumberOfSettlements chichimeca > 0
+
+		set_counter chichi_war 1
+
+		terminate_monitor
+	end_monitor
+
+
+	monitor_event FactionTurnStart FactionType chichimeca
+		and I_CompareCounter chichi_war = 1
+
+		; Chichimec uprising armies disabled by default.
+		historic_event CHICHIMEC_WAR
+		increment_kings_purse chichimeca 3000
+		
+		set_counter chichi_war 2
+
+		terminate_monitor
+	end_monitor
+
+
+	declare_counter xochi_invasion
+
+	monitor_event GeneralCaptureSettlement SettlementName Xochipillan
+		and FactionType spain
+		and I_SettlementOwner Xochipillan = chichimeca
+		and I_NumberOfSettlements chichimeca > 0
+
+		set_counter xochi_invasion 1
+
+		terminate_monitor
+	end_monitor
+
+
+	monitor_event FactionTurnStart FactionType chichimeca
+		and I_CompareCounter xochi_invasion = 1
+
+		; Xochipillan uprising armies disabled by default.
+		increment_kings_purse chichimeca 2000
+
+		set_counter xochi_invasion 2
+
+		terminate_monitor
+	end_monitor
+
+	;============================================================
+	; 1571 SPANISH INQUISITION
+	;============================================================
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber = 104
+
+		spawn_character spain Pedro de_Cordoba, inquisitor, age 28, x 482, y 219
+		console_command give_trait "Pedro de_Cordoba" GoodDenouncer 4
+
+		spawn_character spain Sebastian de_Salvatierra, inquisitor, age 30, x 482, y 219
+		console_command give_trait "Sebastian de_Salvatierra" GoodDenouncer 4
+
+		spawn_character spain Toribio Ortiz, inquisitor, age 32, x 482, y 219
+		console_command give_trait "Toribio Ortiz" GoodDenouncer 4
+
+		spawn_character spain Juan de_Zumarraga, inquisitor, age 33, x 482, y 219
+		console_command give_trait "Juan de_Zumarraga" GoodDenouncer 4
+
+		historic_event INQUISITION_CREATED
+
+		terminate_monitor
+	end_monitor
+
+
+	wait_monitors
+end_script
